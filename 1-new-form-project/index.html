@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <form action="" id="my-form" onsubmit="return validaForm()">
+        Name : <input type="text" name="name" id="form-name"><br>
+        <p id="formNameError" class="error"></p>
+        Age :<input type="text" name="age" id="form-age"> <br>
+        <p id="formAgeError" class="error"></p>
+        Address : <input type="text" name="Adress" id="form-address"><br>
+        <p id="formAddessError" class="error"></p>
+        <input type="submit" value="save" id="submit">
+
+    </form>
+
+    <div id="custom-iframe">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>age</th>
+                <th>Address</th>
+            </tr>
+
+        </table>
+    </div>
+    <button id="btn">Save Data</button>
+
+</body>
+<script src="./js/script.js"></script>
+
+</html>
