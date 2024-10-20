@@ -1,0 +1,60 @@
+ body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    background-color: yellow;
+    font-style: italic;
+    font-size: 25px;
+ }
+
+ .form {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    margin: 5px;
+ }
+
+ input {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    border: solid 4px green;
+    color: green;
+
+ }
+
+ input::placeholder {
+    color: lightgray;
+    font-style: italic;
+ }
+
+ .btn {
+    background-color: green;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 25px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-style: italic;
+    box-lines: 0, 2px, 40px rgba(0, 0, 0, 0, );
+    cursor: pointer;
+ }
+
+ .btn:hover {
+    filter: brightness(0.9);
+ }
+
+ .score {
+    color: green;
+    text-align: end;
+ }
